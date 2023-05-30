@@ -1,0 +1,17 @@
+PS C:\Users\ncc_admin\Desktop\computervision_python> pip install opencv-python    
+Collecting opencv-python
+  Downloading opencv_python-4.7.0.72-cp37-abi3-win_amd64.whl (38.2 MB)
+     ━━━━━━━ 38.2/3… 10.2     eta 0:00:00             MB      MB/s    
+Requirement already satisfied: numpy>=1.21.2 in c:\python311\lib\site-packages (from opencv-python) (1.23.5)
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.7.0.72
+
+[notice] A new release of pip available: 
+22.3.1 -> 23.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+
+opencv tutorials 
+
+https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
