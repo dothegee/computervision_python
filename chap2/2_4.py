@@ -18,9 +18,9 @@ while True:
         break
     cv.imshow("Video display", frame)
 
-    key=cv.waitKey(1)
-    if key == ord('q'):
+    key=cv.waitKey(1) # 1밀리초 동안 키보드 입력 기다림
+    if key == ord('q'): # q를 누리면 루프 빠져나감
         break
 
-cap.relesae()
+cap.relesae() # 카메라와 연결 끊음
 cv.destroyAllWindows()
